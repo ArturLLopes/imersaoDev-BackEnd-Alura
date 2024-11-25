@@ -4,7 +4,7 @@ import cors from "cors";
 import { listarPosts, postarNovoPost, uploadImagem, atualizarNovoPost } from "../controllers/postsController.js"; // Importa as funções controladoras para lidar com a lógica dos posts
 
 const corsOptions = {
-    origin: 'http://localhost:8000',
+    origin: 'https://arturllopes.github.io/Desafio-Front-Back-API-Alura/',
     optionsSuccessStatus: 200
 }
 
